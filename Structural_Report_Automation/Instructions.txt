@@ -1,0 +1,33 @@
+1. Following files should be provided prior to running of Code(Manually)
+	i. {{Architectural_Sectional}} -> i.e Architectural Sectional.pdf file or Architectural Sectional 1.jpg
+	ii. {{Groundfloor_Plan}} -> i.e Groundfloor Plan.pdf file or Groundfloor Plan 1.jpg
+	iii. {{Model_Participation_1}} -> i.e. Model Participation.pdf or Model Participation 1.jpg
+	iv. {{Column_Design_1}}  {{Beam_Design_1}} {{Shearwall_Design_1}} -> i.e Column Design.pdf,
+	 Beam Design.pdf and Shearwall Design.pdf or Column Design 1.jpg (OR Column Design 2.jpg...),
+	 Beam Design 1.jpg (OR Beam Design 2.jpg...) and Shearwall Design 1.jpg (OR Shearwall Design 2.jpg...).
+2. Design File.xlsx must be opened before executing the code (To extract file from them).
+3. The text with text colour RED on sheets should be written accordingly in Design File.xlsx and should be
+	saved without closing.
+4. Screen active time should be made according to the run time.
+
+
+
+Further Development
+-> ETABS icons should be replaced by assigning appropriate shortcuts to them from etabs.
+	from right click on any blank region near toolbar>Customize> Keyboard>Key ASSign OK
+-> Images should be cropped upto point where they find any pixel of colour other than white, from 4 sides.
+-> Special algorithm should be developed to extract design details, and other files as mentioned in i, ii, iii, iv
+	above.
+-> Sorting the items (Images in dict) inside list according to the last number of their name (excluding *.jpg)
+
+Process of use
+1. Open the project. (Or final product folder and open all 4 *.py files)
+2. Install all required modules and other extensions as mentioned below:
+
+3. Open MASTER.py file and run it for i. Data Extraction , ii. Data Processing and iii. Data writing, which 
+	can be done through running the functions below the corresponding heading.
+
+
+
+
+
